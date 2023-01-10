@@ -5,7 +5,7 @@ function solution(s) {
     const originLen = s.length;
     s = s
       .split("")
-      .filter((v) => v === "1")
+      .filter((v) => v === "1"
       .join("");
     const convertLen = s.length;
     deletedZero += originLen - convertLen;
@@ -14,4 +14,3 @@ function solution(s) {
   }
   return [count, deletedZero];
 }
-`

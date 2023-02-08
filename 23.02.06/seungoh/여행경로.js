@@ -58,3 +58,5 @@ function solution(tickets) {
 
 console.log(solution(tickets));
 // ['ICN', 'ATL', 'ICN', 'SFO', 'ATL', 'SFO']
+
+console.log(0.1 + 0.2);

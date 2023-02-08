@@ -1,6 +1,6 @@
 function solution(str1, str2) {
     
-    function sliceStr(str)
+    function sliceStr(str) // 기존 함수와 다른 점 => 영어 소/대문자 문자열만 받또록
     {
          var array=[];
          for (let i = 0 ; i < str.length - 1 ; i++) 

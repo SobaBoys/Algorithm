@@ -11,7 +11,7 @@ function solution(str1, str2) {
         return array;
     }
   
-//     function sliceStr(str)
+//     function sliceStr(str) 문자열 2글자씩+ 특수문자,공백,숫자 제거 하는 함수
 //     {
 //       // let words = 
 //       //     str.replace(/[\d\s\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/g,"");
